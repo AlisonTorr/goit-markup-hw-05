@@ -521,8 +521,7 @@ a:focus {
 .social-link-icon-footer {
     width: 20px;
     height: 20px;
-    padding: 12px;
-    
+    fill: var(--white-text-color);
 }
 
 .projects-section {
