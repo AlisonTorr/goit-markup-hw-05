@@ -500,23 +500,24 @@ a:focus {
     margin-bottom: 20px;
 }
 
-.social-link-item-footer:not(:last-child) {
-    margin-right: 10px;
-}
-
-.social-link-footer {
+.social-link-item-footer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
-.social-link-footer:hover,
-.social-link-footer:focus {
+.social-link-item-footer:hover,
+.social-link-item-footer:focus {
     background-color: var(--accent-color);
 }
+
+.social-link-list-item-footer:not(:last-child) {
+    margin-right: 10px;
+}
+
 
 .social-link-icon-footer {
     width: 20px;
