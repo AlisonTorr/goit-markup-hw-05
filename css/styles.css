@@ -386,10 +386,6 @@ a:focus {
     background-color: var(--accent-color);
 }
 
-.social-link-item:not(:last-child) {
-    margin-right: 10px;
-}
-
 .social-link-icon {
     width: 20px;
     height: 20px;
@@ -500,7 +496,7 @@ a:focus {
     margin-bottom: 20px;
 }
 
-.social-link-item-footer {
+.social-link-list-item-footer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -509,8 +505,8 @@ a:focus {
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0.1);
 }
-.social-link-item-footer:hover,
-.social-link-item-footer:focus {
+.social-link-list-item-footer:hover,
+.social-link-list-item-footer:focus {
     background-color: var(--accent-color);
 }
 
