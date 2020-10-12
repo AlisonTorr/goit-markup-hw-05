@@ -509,11 +509,15 @@ a:focus {
 .social-link-list-item-footer:focus {
     background-color: var(--accent-color);
 }
-
 .social-link-list-item-footer:not(:last-child) {
     margin-right: 10px;
 }
 
+.social-link-item-footer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .social-link-icon-footer {
     width: 20px;
