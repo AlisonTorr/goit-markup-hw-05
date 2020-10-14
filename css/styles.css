@@ -433,7 +433,9 @@ section {
 .social-link-item:focus {
     background-color: var(--accent-color);
 }
-.social-link-item:hover,
+.social-link-item:hover .social-link-icon {
+    fill: var(--white-text-color);
+}
 .social-link-item:focus .social-link-icon {
     fill: var(--white-text-color);
 }
