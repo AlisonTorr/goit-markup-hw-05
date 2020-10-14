@@ -182,7 +182,9 @@ a:focus {
     fill: var(--accent-color);
 }
 
-.auth-nav-link:hover,
+.auth-nav-link:hover .connect-us-icon {
+    fill: var(--accent-color);
+}
 .auth-nav-link:focus .connect-us-icon {
     fill: var(--accent-color);
 }
