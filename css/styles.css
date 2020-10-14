@@ -443,6 +443,10 @@ section {
     height: 20px;
     fill: var(--icon-static-color);
 }
+.social-link-icon:hover,
+.social-link-icon:focus {
+    fill: var(--white-text-color);
+}
 
 .client-list {
     display: flex;
