@@ -182,6 +182,11 @@ a:focus {
     fill: var(--accent-color);
 }
 
+.auth-nav-link:hover,
+.auth-nav-link:focus .connect-us-icon {
+    fill: var(--accent-color);
+}
+
 .hero-section {
     height: 600px;
     max-width: 1600px;
@@ -559,6 +564,9 @@ section {
 .social-link-list-item-footer:hover,
 .social-link-list-item-footer:focus {
     background-color: var(--accent-color);
+}
+.social-link-list-item-footer:focus {
+    outline: black;
 }
 .social-link-list-item-footer:not(:last-child) {
     margin-right: 10px;
