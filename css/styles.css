@@ -62,7 +62,6 @@ a:focus {
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .nav-container {
@@ -114,10 +113,6 @@ a:focus {
     border-radius: 2px;
 }
 
-.studio-link,
-.portfolio-link {
-    padding-bottom: 0px;
-}
 
 .site-nav-link {
     display: block;
@@ -130,6 +125,11 @@ a:focus {
 .site-nav-link:hover,
 .site-nav-link:focus {
     color: var(--accent-color);
+}
+
+.studio-link,
+.portfolio-link {
+    padding-bottom: 0px;
 }
 
 .address {
