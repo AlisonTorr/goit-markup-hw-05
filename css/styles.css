@@ -479,8 +479,10 @@ section {
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
 }
-.client-item:hover,
-.client-item:focus .client-icon {
+.client-link:hover .client-icon {
+    fill: var(--accent-color);
+}
+.client-link:focus .client-icon {
     fill: var(--accent-color);
 }
 
