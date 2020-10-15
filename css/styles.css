@@ -290,7 +290,7 @@ a:focus {
     right: 8px;
 
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
 
     width: 30px;
