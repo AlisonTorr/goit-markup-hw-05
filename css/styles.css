@@ -283,18 +283,15 @@ a:focus {
 
 .cross-close-button {
     position: absolute;
-    top: 14px;
-    right: 14px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 8px;
+    right: 8px;
 
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--primary-background-color);
+    cursor: pointer;
 }
 
 .why-us-list {
