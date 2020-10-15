@@ -271,6 +271,12 @@ a:focus {
     border-radius: 4px;
 }
 
+.cross-close-button {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
 .why-us-list {
     display: flex;
     flex-wrap: wrap;
